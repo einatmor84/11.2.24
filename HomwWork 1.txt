@@ -1,0 +1,22 @@
+תרגול SQL:
+
+יש להיעזר בטבלאות Northwind.
+
+1.	הצג את כל המידע מטבלת   Orders 
+2.	הצג את כל העמודות מטבלת Employee 
+3.	הצג מטבלת Employees את העמודות הבאות : FirstName , HireDate , Region , Country 
+4.	הצג מטבלת Orders את העמודות הבאות : CustomerID , OrderID , OrderDate 
+5.	הצג מטבלת Products את העמודות הבאות: ProductID (Alias – ProId), ProductName (Alias - ProId), UnitPrice (Alias - UntPr)
+6.	הצג מטבלת Employeesאת העמודות הבאות: Address (Alias – Addr), City (Alias - Ct), Region (Alias - reg)
+7.	הצג מטבלת customers שתי עמודות: קוד הלקוח בעמודה אחת, הכתובת והעיר משורשרות יחדיו בעמודה שנייה. יש לתת את השם "address full "לעמודה השנייה.
+8.	הצג מטבלת Employees שלוש עמודות: 
+השמות המלאים של העובדים )שם פרטי משורשר עם שם משפחה( תחת ,Full Name 
+הכותרת את תאריך יום ההולדת שלהם פלוס 8 ימים תחת הכותרת Date Birth, 
+ואת קוד המנהל )עמודת (ReportsTo תחת הכותרת #Manager.
+9.	הצג מטבלת Employees את הערים City -מהם מגיעים העובדים בצורה ייחודית
+10.	הצג מטבלת Employees את המדינות Country- מהם מגיעים העובדים בצורה ייחודית
+11.	הצג מטבלת Employees את תיאור המשרה )Title )של העובדים בצורה ייחודית
+12.	א. הצג מטבלת Customers את המדינה )Country )ואת העיר (City( 
+ב. הצג מטבלת Customers את השילוב הייחודי של המדינה והעיר
+13.	הצג מטבלת Products את שם המוצר, מחיר ליחידה , והמחיר ליחידה + 1  ולפי סדר יורד של מחירים.
+14.	הצג מטבלת  Order Details את כל המוצרים שמחירים גבוהה מ20 דולר.
