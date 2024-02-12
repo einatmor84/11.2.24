@@ -1,0 +1,20 @@
+Database Setup:
+
+    •	Use the provided SQL statements to create two tables: store and Visiters.
+    •	The store table represents different stores with a unique identifier (StoreID) and a store name (Store Name).
+    •	The Visiters table represents visitors to the stores. 
+      It includes a unique identifier (visit id), first name, last name, visit timestamp (visited at), age, phone number, 
+      and a foreign key (StoreID) referencing the store table.
+
+Data Insertion:
+    •	Insert data into the store table for four different stores: 'Golf', 'IKEA', 'NIKE', and 'BBB'.
+    •	Insert a record into the Visiters table with the following information:
+      -	First Name: Moshe
+      -	Last Name: Cohen
+      -	Visited At: '2021-11-11'
+      -	Age: 30
+      -	Phone: '0503856677'
+      -	StoreID: 1
+
+Data Update:
+    -	Update the last name of the visitor with visit id 1 to 'King' in the Visiters table.
